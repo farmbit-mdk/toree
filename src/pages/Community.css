@@ -1,0 +1,128 @@
+.community-page {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .community-banner {
+    background-color: #1a1a1b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+  
+  .community-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .community-info p {
+    color: #d7dadc;
+    margin-bottom: 15px;
+  }
+  
+  .community-stats {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #a8aaab;
+  }
+  
+  .join-button {
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 9999px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .join-button.joined {
+    background-color: #edeff1;
+    color: #0079d3;
+  }
+  
+  .join-button:hover {
+    opacity: 0.9;
+  }
+  
+  .post-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a1a1b;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .sort-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sort-options button {
+    background: none;
+    border: none;
+    color: #818384;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 9999px;
+  }
+  
+  .sort-options button.active {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #d7dadc;
+  }
+  
+  .sort-options button:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+  
+  .create-post-button {
+    background-color: #0079d3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .create-post-button:hover {
+    background-color: #006ec6;
+  }
+  
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #818384;
+  }
+  
+  .no-posts {
+    text-align: center;
+    padding: 40px;
+    font-size: 16px;
+    color: #818384;
+    background-color: #1a1a1b;
+    border-radius: 4px;
+  }
+  
+  /* 다크 모드 기본 스타일 (레딧 스타일) */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #030303;
+      color: #d7dadc;
+    }
+  }
